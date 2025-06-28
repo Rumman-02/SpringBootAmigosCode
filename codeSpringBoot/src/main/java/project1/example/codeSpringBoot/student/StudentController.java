@@ -14,7 +14,7 @@ import java.time.Month;
 import java.util.List;
 
 @RestController
-@RequestMapping(path = "api/v1/student")  // Instead of going to localhost:8080, it will go > localhost:8080/api/v1/student
+@RequestMapping(path = "/api/v1/student")  // Instead of going to localhost:8080, it will go > localhost:8080/api/v1/student
 /*
 It's for a clearPath
  */
